@@ -1,0 +1,23 @@
+
+{% extends 'base.html' %}
+
+<!-- Herencia, se muestra en el titulo de la pestaña -->
+{% block title %}
+    {{ super() }}
+    Welcome to Flask Project
+{% endblock %}
+<!-- Herencia, se muestra en el body -->
+{% block content %}
+    {% if user_ip %}
+        <h2>Hola Mundo, tu ip es: {{user_ip}}</h2>
+    {% else %}
+        <a href="{{url_for('sohw_informatio')}}">Error en cookes</a> <!--Redirecciona al metodo -->
+    {% endif %}
+
+    <ul>
+        {% for item in items %}
+            <li>{{item}}</li>
+        {% endfor %}
+
+    </ul>
+{% endblock %}

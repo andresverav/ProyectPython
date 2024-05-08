@@ -1,0 +1,21 @@
+Python  = Lenguaje de programacion
+PIP     = Gestor de paquetes
+VirtualEnv = Crea entorno VirtualEnv     
+
+pip help
+pip3 --version
+python -m virtualenv --version  /--version del pip
+pip3 install virtualenv
+
+--instalacion de entorno
+python -m venv flask_app
+
+flask_app\Scripts\activate --activar el venv
+python main.py 
+deactivate --desactiva
+
+https://www.youtube.com/watch?v=gm0gexHWDy0&ab_channel=Onslaugth
+touch requeriments.txt
+pip install flask
+pip freeze --visualiza los paquetes instalados en el entorno virtualenv
+pip freeze > requeriments.txt -- copia los paqutes  instalados en el archivo
