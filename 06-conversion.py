@@ -1,6 +1,0 @@
-resultado = input("Ingrese su Edad :")
-print("Su edad es:"+resultado)
-tipoDato=type(resultado)
-edad = int(resultado)
-print(edad+2)
-print(bool(0))
