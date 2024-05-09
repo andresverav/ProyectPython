@@ -19,3 +19,21 @@ touch requeriments.txt
 pip install flask
 pip freeze --visualiza los paquetes instalados en el entorno virtualenv
 pip freeze > requeriments.txt -- copia los paqutes  instalados en el archivo
+
+
+python -m venv venv
+venv\Scripts\activate
+Flask-Bcrypt
+Flask
+Flask-Bootstrap
+Flask-SQLAlchemy
+Flask-Login
+WTForms
+SQLAlchemy
+Flask-WTF
+email_validator
+pip install -r requirements.txt
+
+SQL
+jvera
+123456789
